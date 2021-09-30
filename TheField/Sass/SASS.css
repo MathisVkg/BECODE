@@ -1,0 +1,101 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #555555;
+}
+
+.show {
+  margin: 2%;
+  height: 600px;
+  width: 460px;
+}
+
+.show:hover img {
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.show:hover .hidetext {
+  height: 100px;
+}
+
+.show:hover .img-hover-zoom {
+  height: 160px;
+}
+
+.show:hover .photo {
+  top: 16.1%;
+}
+
+.img-hover-zoom {
+  height: 260px;
+  width: 451px;
+  overflow: hidden;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+img {
+  max-width: 100%;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.month {
+  background-color: #e34e3a;
+  color: white;
+  border-radius: 100%;
+  padding: 0.3%;
+  text-align: center;
+  position: absolute;
+  left: 23%;
+}
+
+.photo {
+  background-color: #e34e3a;
+  color: white;
+  padding: 0.3%;
+  position: absolute;
+  left: 2.2%;
+  top: 26.2%;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.container {
+  margin: -1% 2% 2% 0%;
+  background-color: white;
+  padding: 2% 2% 2% 4%;
+}
+
+.titlered {
+  color: #e54f37;
+  font-size: 145%;
+  margin-top: -4%;
+}
+
+.hidetext {
+  font-size: 120%;
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.reseau {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-right: 50px;
+  font-size: 100%;
+  color: gray;
+}
+
+.espacement {
+  margin-right: 8%;
+}
+/*# sourceMappingURL=SASS.css.map */

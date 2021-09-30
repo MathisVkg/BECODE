@@ -1,0 +1,34 @@
+1. SELECT firstname, lastname FROM octocats
+ORDER BY firstname ASC;
+
+2. SELECT firstname, lastname FROM octocats
+ORDER BY lastname DESC;
+
+3. SELECT firstname, lastname, age FROM octocats
+ORDER BY age ASC;
+
+4. SELECT firstname, lastname, age FROM octocats
+ORDER BY age DESC;
+
+5.SELECT firstname, lastname, age FROM octocats
+WHERE promo LIKE "promo1-central"
+ORDER BY age ASC;
+
+6. SELECT firstname, lastname, age FROM octocats
+WHERE promo LIKE "promo1-central"
+AND age > 23 AND age < 28
+ORDER BY age ASC;
+
+7.SELECT firstname, lastname, age, gender FROM octocats
+WHERE promo LIKE "promo1-central"
+AND age > 25 AND age < 35
+ORDER BY age ASC;
+
+8. SELECT firstname, lastname, age, gender FROM octocats
+WHERE promo LIKE "promo1-central"
+AND age > 25 AND age < 35
+AND gender = "M"
+ORDER BY age ASC;
+
+9. SELECT firstname, lastname, age FROM octocats
+WHERE age = "56";

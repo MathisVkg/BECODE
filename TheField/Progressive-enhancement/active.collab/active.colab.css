@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Source Sans Pro-regular';
+    src: url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap) format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro-bold';
+    src: url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap) format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro-bigbold';
+    src: url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap) format('woff');
+}
+
+
+
+body {
+    background-color: rgb(233, 237, 242);
+    margin-right: 1px;
+    margin-left: 0px;
+}
+
+
+/* top nav + bouton */
+.bigone a {
+    font-size: 60px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+}
+.topnav {
+	padding: 0.5px;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+}
+.topnav a.logo {
+	display: block;
+	float: left;
+	padding: 0;
+	margin: 10px;}
+.topnav a.logo img {
+	height: 65px;
+	width: auto;
+	float: left;}
+.navigation a {
+	float: left;
+	padding: 15px 0px 0px 0px;
+	margin: 15px;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+}
+.navigation a:hover {
+	color: rgb(68, 157, 245);
+}
+.navigation2 a {
+	float: right;
+	padding: 15px 0px 0px 0px;
+	margin: 15px 35px 0px 20px;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+}
+.navigation2 a:hover {
+	color: rgb(68, 157, 245);
+}
+.bouton1 a{
+    background-color: white;
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 0px 6px 6px 0px;
+    padding: 6px 15px 6px 15px;
+    margin: 25px 35px 0px 0px;
+    color: black;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+}
+.bouton2 a{
+    background-color: rgb(68, 157, 245);
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 6px 0px 0px 6px;
+    padding: 6px 15px 6px 15px;
+    margin: 25px -1px 0px 0px;
+    color: white;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+}
+
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 180px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+}
+
+
+/* tableau img */
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    background: rgb(63, 70 , 85);
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    border: 1.5px solid rgb(19, 19, 19);
+    border-right-style: none;
+    border-left-style: none;
+}
+.first {
+    background: rgb(63, 70 , 85); 
+    background-image: url(https://github.com/MathisVkg/progressive-enhancement/blob/main/active.collab/img/page.PNG?raw=true);
+    background-repeat: no-repeat;
+    background-position: 95px 30px;
+    height: 390px;
+    margin: 1px 0px 1px 0px;
+    width: 420px;
+}
+.second {
+    background: rgb(63, 70 , 85); 
+    background-image: url(https://github.com/MathisVkg/progressive-enhancement/blob/main/active.collab/img/message.PNG?raw=true);
+    background-repeat: no-repeat;
+    background-position: 60px 5px;
+    height: 390px;
+    margin: 1px 0px 1px 0px;
+    width: 420px;
+}
+.third {
+    background: rgb(63, 70 , 85); 
+    background-image: url(https://github.com/MathisVkg/progressive-enhancement/blob/main/active.collab/img/track.PNG?raw=true);
+    background-repeat: no-repeat;
+    background-position: 60px 5px;
+    height: 390px;
+    margin: 1px 0px 1px 0px;
+    width: 420px;
+}
+.four {
+    background: rgb(63, 70 , 85); 
+    background-image: url(https://github.com/MathisVkg/progressive-enhancement/blob/main/active.collab/img/invoicing.PNG?raw=true);
+    background-repeat: no-repeat;
+    background-position: 60px 5px;
+    flex-basis: 368px;
+    height: 390px;
+    margin: 1px 0px 1px 0px;
+    width: 420px;
+}
+.title {
+    font-size: 25px;
+    position: relative;
+    top: 225px;
+    color: white;
+    text-align: center;
+}
+.description {
+    font-size: 17px;
+    position: relative;
+    top: 212px;
+    color: rgb(187, 184, 184);
+    text-align: center;
+}
+
+
+/* page + try it free */
+.essais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.teams {
+    margin-top: 60px;
+    font-size: 22px;
+    line-height: 40px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+} 
+a.boutondays {
+    background-color: rgb(68, 157, 245);
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 4px;
+    display: block;
+    text-decoration: none;
+    margin: 20px 0px 12px 0px;
+    color: white;
+    width: 210px;
+    font-size: 21px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    padding: 15px 35px 15px 35px;
+}
+.boutondays a:hover {
+    color: black;
+}
+.credit {
+    margin-top: 18px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+}
+.pageweb {
+    margin-top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1090px;
+}
+
+
+/* cloud server */
+.paragraphe {
+    background-color: white;
+}
+.cloud {
+    font-size: 35px;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bigbold', sans-serif;
+}
+.cloudtext {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+}
+.option {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.monthly {
+    background-image: url(https://github.com/MathisVkg/progressive-enhancement/blob/main/active.collab/img/bulle1.PNG?raw=true);
+    background-repeat: no-repeat;
+}
+.monthlyplans {
+    font-size: 25px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    margin-top: 165px;
+    text-align: center;
+}
+.inthecloud {
+    font-size: 18px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    text-align: center;
+    line-height: 33px;
+}
+a.planspricing {
+    font-size: 17px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    text-align: center;
+    display: block;
+    background-color: rgb(68, 157, 245);
+    border: 1.5px solid rgb(19, 19, 19);
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+.planspricing a:hover {
+    color: black;
+}
+.frommonth {
+    font-size: 17px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+}
+.self {
+    background-image: url(https://github.com/MathisVkg/progressive-enhancement/blob/main/active.collab/img/bulle2.PNG?raw=true);
+    background-repeat: no-repeat;
+    background-position: 40px 0px;
+}
+.selfhosted {
+    font-size: 25px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    margin-top: 165px;
+    text-align: center;
+}
+.ownserver {
+    font-size: 18px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    text-align: center;
+    line-height: 33px;
+}
+a.selfpricing {
+    font-size: 17px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    text-align: center;
+    display: block;
+    background-color: rgb(68, 157, 245);
+    border: 1.5px solid rgb(19, 19, 19);
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+.selfpricing a:hover {
+    color: black;
+}
+.ontimefee {
+    font-size: 17px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    margin-bottom: 150px;
+}
+
+
+/* sponsor */
+.whosusing {
+    font-size: 35px;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+}
+.tenyears {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+}
+.sponsorimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+
+/* sign up */
+.inscription {
+    background-color: white;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getstarted {
+    font-size: 45px;
+    margin-top: 0px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bigbold', sans-serif;
+}
+.enterdetails {
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    margin-bottom: 60px;
+}
+.boxinscription {
+    background-color: rgb(233, 237, 242);
+    background-position: center;
+    height: 455px;
+    width: 420px;
+    padding: 20px 40px 30px 40px;
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 4px;
+}
+.name {
+    font-size: 19px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    margin-top: 35px;
+}
+.entername {
+    font-size: 18px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    background-color: white;
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 4px;
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 119, 119);
+}
+.email {
+    font-size: 19px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    margin-top: 35px;
+}
+.enteremail {
+    font-size: 18px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    background-color: white;
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 4px;
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 119, 119);
+}
+.password {
+    font-size: 19px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    margin-top: 35px;
+}
+.enterpassword {
+    font-size: 18px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    background-color: white;
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 4px;
+    padding: 10px 0px 10px 10px;
+    color: rgb(119, 119, 119);
+}
+.startbouton {
+    font-size: 18px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    background-color: rgb(68, 157, 245);
+    border: 1.5px solid rgb(19, 19, 19);
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    width: 175px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 100px;
+    display: block;
+    text-decoration: none;
+}
+.startbouton a:hover {
+    color: black;
+}
+.enjoy {
+    font-size: 19px;
+    font-family: 'Source Sans Pro-bold', sans-serif;
+    text-align: center;
+}
+.datasafe {
+    font-size: 19px;
+    padding-top: 26px;
+    margin-bottom: 3px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bold', sans-serif; 
+    color: rgb(119, 119, 119);
+}
+.security {
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Source Sans Pro-bold', sans-serif; 
+    color: rgb(119, 119, 119);
+}
+
+/* footer */
+footer ul a{
+    font-size: 17px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+    color: white;
+    line-height: 30px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 40px;
+}
+.flexfooter {
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: rgb(63, 70, 85);
+}
+ul a:hover {
+    color: rgb(68, 157, 245);
+}
+.topcategory {
+    color: rgb(167, 167, 167);
+    font-size: 18px;
+    font-family: 'Source Sans Pro-regular', sans-serif;
+}
+.reseau {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.backreseau {
+    background-color: rgb(63, 70, 85);
+    padding-bottom: 65px;
+}

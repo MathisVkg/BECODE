@@ -1,0 +1,193 @@
+
+body {
+    background-color: rgb(255, 133, 96);
+    // background-color: #ecaf5f;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+height: 970px;
+}
+
+
+.div1 { grid-area: 1 / 1 / 2 / 6; }
+.div2 { grid-area: 2 / 3 / 3 / 4; }
+.div3 { grid-area: 3 / 3 / 4 / 4; }
+.div4 { grid-area: 2 / 1 / 4 / 3; }
+.div5 { grid-area: 4 / 3 / 5 / 4; }
+
+header {
+    background-color: #303030;
+    padding: 12px;
+    text-align: center;
+    h1 {
+        font-size: 75px;
+        color: white;
+        margin-bottom: 0;
+        text-shadow: 2px 2px 0px #eb452b, 
+                4px 4px 0px #efa032, 
+                6px 6px 0px #46b59b, 
+                8px 9px 0px #017e7f, 
+                10px 12px 0px #052939,
+                12px 13px 0px rgb(255, 133, 96),
+        // text-shadow: 2px 2px 0px rgb(255, 133, 96);
+    }
+    .scoreClass {
+        font-size: 45px;
+        color: white;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-shadow: 2px 1px 0px rgb(255, 133, 96);
+    }
+    .highScoreClass {
+        font-size: 25px;
+        color: white;
+        margin-bottom: 2%;
+    }
+}
+
+
+.zoneImage {
+    .imgButton {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        width: 180px;
+        transition: 0.5s ease-in-out;
+        animation: rotation 10s infinite linear;
+        // box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+        // border-radius: 15px;
+    }
+}
+
+.zoneBonus {
+    display: flex;
+    justify-content: center;
+}
+.multiplicator {
+    text-align: center;
+    margin-top: 15%;
+    .button {
+        padding: 5%;
+        font-size: 25px;
+        border: none;
+        transition: 0.5s ease-in-out;
+        border-radius: 10px;
+        background-color: #303030;
+        color: white;
+        }
+    .multitextClass {
+        transition: 0.5s ease-in-out;
+        opacity: 0;
+        padding: 7px;
+        font-size: 40px;
+        color: white;
+        margin-top: 7px;
+    }
+    &:hover {
+      .button + .multitextClass{
+        box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+        background-color: #303030;
+        border-radius: 10px;
+        opacity: 1;
+        }
+    }
+}
+
+.div4 {
+    margin-left: 10%;
+    color: white;
+    .titleBonus {
+        font-size: 45px;
+        margin-bottom: 0;
+        text-shadow: 2px 1px 0px #303030;
+    }
+    .subTitleBonus {
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+.automultiplicator {
+    padding: 15px 25px 10px 60px;
+    background-color: rgb(223, 162, 144);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 720PX;
+    .upgradeText {
+        margin-top: 0;
+        font-size: 22px;
+        color: white;
+        text-shadow: 2px 1px 0px #303030;
+    }
+    .upgrade {
+        margin-top: 5%;
+        font-size: 20px;
+        border: none;
+        transition: 0.5s ease-in-out;
+        border-radius: 10px;
+        background-color: #303030;
+        color: white;
+        width: 210px;
+        padding: 15px;
+        &:hover {
+            box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+            transform: translateX(12px);
+        }
+    }
+    .upgradeFlex {
+        margin-right: 4%;
+    }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 2 / 1 / 3 / 6; }
+    .div3 { grid-area: 3 / 1 / 4 / 6; }
+    .div4 { grid-area: 4 / 1 / 5 / 6; 
+            margin-bottom: 4%;
+    }
+    .div5 { grid-area: 5 / 1 / 6 / 6;
+            margin-right: 0;
+            border-radius: unset;
+    }
+    .multiplicator {
+        margin-top: 25%;
+    }
+    .automultiplicator {
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+        flex-wrap: unset;
+        margin-top: 12%;
+        margin-bottom: 0;
+        border-radius: unset;
+        .upgradeFlex {
+            margin: 0;
+            text-align: center;
+        }
+    }
+}

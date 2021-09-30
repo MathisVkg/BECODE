@@ -1,0 +1,19 @@
+1. SELECT ville FROM météo;
+2. SELECT ville, haut FROM météo;
+3. SELECT ville, bas FROM météo;
+4. SELECT * FROM météo
+WHERE haut > 27;
+5. SELECT * FROM météo
+WHERE bas <= 15;
+6. SELECT * FROM météo
+WHERE bas = 15;
+7. SELECT * FROM météo
+WHERE bas != 15;
+8. SELECT ville FROM météo
+WHERE ville LIKE "Br%";
+9. SELECT ville, haut FROM météo
+WHERE haut > 26 AND haut < 28;
+10. SELECT ville, bas FROM météo
+WHERE bas >= 14 AND bas < 16;
+11. SELECT * FROM météo
+WHERE haut >= 26  AND bas < 14;

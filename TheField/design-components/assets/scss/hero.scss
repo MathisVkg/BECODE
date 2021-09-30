@@ -1,0 +1,32 @@
+
+body {
+    // background-color: #303030;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-image: url("https://github.com/MathisVkg/design-components/blob/main/assets/img/hero-image.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+
+.container {
+    margin-left: 10%;
+    margin-top: 10%;
+    .waiting {
+        font-size: 35px;
+        width: 250px;
+    }
+    .text {
+        width: 450px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .bouton {
+        background-color: #e9ba2c;
+        margin-top: 2%;
+        padding: 1.5%;
+        font-size: 18px;
+        font-weight: bold;
+        width: 180px;
+    }
+}

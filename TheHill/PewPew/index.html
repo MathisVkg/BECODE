@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="Description" content="Ajax quote request" />
+<link rel="stylesheet" href="assets/css/index.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+<title>Space Invader</title>
+</head>
+<body>
+    <header>
+        <h1>Space Invader</h1>
+        <a href="https://github.com/MathisVkg" class="copyright">©Vkg Mathis</a>
+    </header>
+    <div class="container">
+        <div class="buttonPlay">
+            <button class="buttonUp" id="buttonStart">Start game</button>
+            <button class="buttonDown" id="buttonReset">Play again</button>
+            <div class="target" id="targetIt">Target hit: <span id="score" class="score"></span><span id="numberTargetos"></span></div>
+            <button class="buttonDiff" id="buttonDifficulty">Difficulty</button>
+            <button class="buttonTheme" id="buttonTheme">Theme</button>
+            <p class="timer" id="gameTime">Timer :</p>
+            <p class="control">Control: arrow left, arrow right & arrow up</p>
+            <div class="liveFlex">
+                <img id="live" class="heartClass" src="assets/img/hearticon-removebg-preview.png">
+                <img id="live2" class="heartClass" src="assets/img/hearticon-removebg-preview.png">
+                <img id="live3" class="heartClass" src="assets/img/hearticon-removebg-preview.png">
+            </div>
+        </div>
+        <div>
+            <p class="winLose" id="winLose"></p>
+            <canvas id="game" class="canvas"></canvas>
+            <img id="source" src="assets/img/testpng-removebg-preview.png" style="display: none;">
+            <img id="source2" src="assets/img/target (1).png" style="display: none;">
+        </div>
+    </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

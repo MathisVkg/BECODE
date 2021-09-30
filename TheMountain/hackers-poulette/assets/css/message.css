@@ -1,0 +1,49 @@
+body {
+  background-color: #303030;
+  margin: 0;
+  font-family: 'Bellota', cursive;
+}
+
+.messageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  -webkit-box-shadow: 2px 2px 6px #818181;
+          box-shadow: 2px 2px 6px #818181;
+  border-radius: 2px;
+  padding: 40px;
+  margin-top: 5%;
+}
+
+.messageContainer .titleMessage {
+  text-align: center;
+  font-size: 30px;
+  padding: 15px;
+  width: 400px;
+  color: white;
+  background-color: #0d81875b;
+  -webkit-box-shadow: 2px 2px 6px #303030;
+          box-shadow: 2px 2px 6px #303030;
+  border-radius: 2px;
+}
+
+.messageContainer .subMessage {
+  text-align: center;
+}
+
+.messageContainer .imgHackers {
+  width: 200px;
+  height: 187.50px;
+}
+/*# sourceMappingURL=message.css.map */

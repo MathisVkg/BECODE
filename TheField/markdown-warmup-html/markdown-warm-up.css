@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+/* Name */
+.me {
+    background-image: url(https://github.com/MathisVkg/markdown-warmup-html/blob/main/img/wallhaven-4v2qj8.png?raw=true);
+    height: 530px;
+}
+.bigname {
+    color: white;
+    font-size: 65px;
+    padding: 110px 0px 0px 60px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+
+/* quote */
+.inspiquote {
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.quote {
+    margin-top: 0px;
+    font-style: italic;
+    padding: 80px 0px 5px 60px;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+.thequote {
+    padding: 0px 0px 5px 60px;
+    font-size: 18px;
+}
+p span {
+    color: rgb(134, 133, 133);
+    padding: 0px 0px 0px 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* parallax background */
+.parallax {
+    background-image: url(https://github.com/MathisVkg/markdown-warmup-html/blob/main/img/IMG_0080_Original.jpg?raw=true);
+    width: 100%;
+    min-height: 650px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* sentence */
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.meinonesentence {
+    border-right: 1.5px solid rgb(19, 19, 19);
+}
+.sentence {
+    font-size: 50px;
+}
+.thesentence {
+    font-size: 35px;
+    font-style: italic;
+}
+.meinonesentence {
+    text-align: center;
+    padding: 40px;
+}
+.tablephrase {
+    padding-left: 15px;
+    font-style: italic;
+}
+.table {
+    padding: 40px;
+    padding-left: 25px;
+}
+td {
+    border: 1.5px solid rgb(19, 19, 19);
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(129, 127, 127);
+    color: white;
+}
+th {
+    border: 1.5px solid rgb(19, 19, 19);
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgb(129, 127, 127);
+    color: white;
+}
+.boxcheckbox {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+
+/* Hobbie */
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(129, 127, 127);
+    padding: 25px;
+    color: white;
+}
+ul.ulhobby {
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 35px;
+}
+.title {
+    padding-left: 35px;
+    font-size: 35px;
+}
+.info {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+/* count on me + funny story*/
+.canalwayscount {
+    padding-left: 35px;
+    padding-top: 35px;
+}
+.funnystory {
+    padding-left: 35px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+.always {
+    font-size: 22px;
+}
+.alwaystext {
+    font-size: 19px;
+    padding-left: 35px;
+}
+.titlestory {
+    font-size: 22px;
+}
+.story {
+    font-size: 19px;
+    padding-left: 35px;
+}
+ul.sumerise {
+    font-size: 20px;
+    line-height: 8px;
+}
+.sumerisetext {
+    font-size: 18px;
+    padding-left: 25px;
+    font-style: italic;
+}
+
+
+/* footer */
+footer {
+    background-color: rgb(85, 84, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    font-size: 18px;
+    color: white;
+}
+.previous {
+    padding-right: 35px;
+    text-decoration: none;
+}
+.next {
+    padding-left: 35px;
+    text-decoration: none;
+}

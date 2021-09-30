@@ -1,0 +1,112 @@
+body {
+  background-color: #303030;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.marginUl {
+  margin-left: 10%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1e3244;
+  padding: 3%;
+}
+
+footer .textFooter {
+  text-decoration: none;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.555);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+footer .textFooter:hover {
+  color: white;
+}
+
+footer .footerTitle {
+  color: white;
+  font-weight: bold;
+}
+
+footer .imgDjab {
+  height: 180px;
+}
+
+footer .footer1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 30px;
+}
+
+footer .footer2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3%;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+footer .footer2 .search {
+  margin-left: 7%;
+  margin-top: 25px;
+  height: 16px;
+  border: 0;
+  border-bottom: 2px solid gray;
+  color: white;
+  padding: 7px;
+  background: transparent;
+}
+
+@media only screen and (max-width: 1150px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .imgDjab {
+    width: 270px;
+    margin-left: 2%;
+  }
+  .marginUl {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .footer1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 450px;
+  }
+  .footer2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 450px;
+  }
+  .marginUl {
+    margin-left: 0;
+  }
+  .search {
+    width: 70%;
+    margin-left: 2%;
+  }
+}
+/*# sourceMappingURL=footer-menu.css.map */

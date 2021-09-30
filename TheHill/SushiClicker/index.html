@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Sushi Clicker">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/index.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<title>SushiClicker</title>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="div1">
+            <header>
+                <h1>Sushi Clicker</h1>
+                <p class="scoreClass" id="score">0 sushi points</p>
+                <p class="highScoreClass" id="highScore">High Score: 0 sushi points</p>
+            </header>
+        </div>
+        <div class="div2">
+            <div class="zoneImage">
+                <input type="image" id="imageScore" alt="Login" src="assets/img/sushi.png" class="imgButton">
+            </div>
+        </div>
+        <div class="div3">
+            <div class="zoneBonus">
+                <div class="multiplicator">
+                    <input type="button" value="x2" id="multiX2" class="button">
+                    <input type="button" value="x3" id="multiX3" style="display: none;" class="button">
+                    <input type="button" value="x5" id="multiX5" style="display: none;" class="button">
+                    <input type="button" value="x10" id="multiX10" style="display: none;" class="button">
+                    <p class="multitextClass" id="multitext">100 sushi points</p>
+                </div>
+            </div>
+        </div>
+        <div class="div4">
+            <p class="titleBonus">Active bonus:</p>
+            <p class="subTitleBonus" id="bonusActif" title="click is simple">mutliplier x1</p>
+            <p class="subTitleBonus" id="bonusActif1"></p>
+            <p class="subTitleBonus" id="bonusActif2"></p>
+            <p class="subTitleBonus" id="bonusActif3"></p>
+            <p class="subTitleBonus" id="bonusActif4"></p>
+            <p class="subTitleBonus" id="bonusActif5"></p>
+            <p class="subTitleBonus" id="bonusActif6"></p>
+        </div>
+        <div class="div5">
+            <div class="automultiplicator">
+                <div class="upgradeFlex">
+                    <input type="button" value="Sweet Soy Sauce" id="upgrade1" class="upgrade">
+                    <p class="upgradeText" id="upgradeText">5000 sushi points</p>
+                </div>
+                <div class="upgradeFlex">
+                    <input type="button" value="Salty Soy Sauce" id="upgrade2" class="upgrade">
+                    <p class="upgradeText" id="upgradeText">10 000 sushi points</p>
+                </div>
+                <div class="upgradeFlex">
+                    <input type="button" value="Rice Master" id="upgrade3" class="upgrade">
+                    <p class="upgradeText" id="upgradeText">50 000 sushi points</p>
+                </div>
+                <div class="upgradeFlex">
+                    <input type="button" value="Sushi Shop" id="upgrade4" class="upgrade">
+                    <p class="upgradeText" id="upgradeText">100 000 sushi points</p>
+                </div>
+                <div class="upgradeFlex">
+                    <input type="button" value="Saumon Factory" id="upgrade5" class="upgrade">
+                    <p class="upgradeText" id="upgradeText">250 000 sushi points</p>
+                </div>
+                <div class="upgradeFlex">
+                    <input type="button" value="Chef Sushi" id="upgrade6" class="upgrade">
+                    <p class="upgradeText" id="upgradeText">500 000 sushi points</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/script.js" id="run"></script>
+</body>
+</html>

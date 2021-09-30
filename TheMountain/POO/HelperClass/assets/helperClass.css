@@ -1,0 +1,87 @@
+    
+    
+body {
+    background-color: #303030;
+    margin: 0;
+    font-family: "lato", sans-serif;
+    height: 900px;
+}
+
+
+form {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1970c2;
+    border-radius: 4px;
+    width: 300px;
+    padding: 25px;
+}
+textarea {
+    max-width: 480px;
+    max-height: 200px;
+}
+.usernameClass {
+    border: none;
+    padding: 5px 122px 5px 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.nameText {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+select {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 5px 218px 5px 5px;
+}
+.genderGroup {
+    display: flex;
+}
+.inputRadio {
+    margin-top: 17px;
+    margin-right: 8px;
+    width: 1.3em; 
+    height: 1.3em;
+}
+.genderText {
+    font-size: 16px;
+    font-weight: 700;
+}
+.checkboxGroup {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100px;
+}
+.submit {
+    margin-top: 10px;
+    width: 300px;
+    padding: 5px;
+}
+
+
+
+.catImg {
+    width: 400px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.githubLink {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 49%;
+}

@@ -1,0 +1,243 @@
+body {
+  background-color: #303030;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/5908001/pexels-photo-5908001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  width: 80px;
+}
+
+.navigation {
+  font-size: 19px;
+  text-align: center;
+  font-weight: 400;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #303030;
+  top: 0;
+  padding: 1.5%;
+}
+
+.navBouton {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  color: white;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+.navBouton:hover {
+  color: #FF8800;
+  border-bottom: 1.5px solid #FF8800;
+  text-decoration: none;
+}
+
+.navTitle {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  font-size: 25px;
+  margin-right: 25%;
+  font-weight: 700;
+  color: white;
+  margin-left: 2%;
+  text-decoration: none;
+}
+
+.navTitle:hover {
+  color: #FF8800;
+  text-decoration: none;
+}
+
+.navBoutonBuy {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: white;
+  color: black;
+  padding: 15px 50px 15px 50px;
+  margin-left: 3%;
+  text-decoration: none;
+}
+
+.navBoutonBuy:hover {
+  color: #FF8800;
+  padding: 15px 65px 15px 65px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #303030;
+}
+
+footer ul a {
+  font-size: 17px;
+  color: white;
+  line-height: 25px;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 20px;
+  width: 150px;
+}
+
+.flexFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: distribute;
+  align-content: space-around;
+  margin-top: 2%;
+}
+
+ul a:hover {
+  color: #FF8800;
+  text-decoration: none;
+}
+
+.footerTitle {
+  color: #868686;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1100px) {
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+    position: unset;
+    padding: 0;
+  }
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+  }
+  .navBouton {
+    margin-bottom: 0.8%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1.5%;
+    margin-left: 0;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    margin: 0;
+    color: #FF8800;
+  }
+  .navBoutonBuy:hover {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  a {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: start;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+    position: unset;
+    padding: 0;
+  }
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+  }
+  .navBouton {
+    margin-bottom: 0.8%;
+    background-color: white;
+    color: black;
+    padding: 1.5%;
+    padding-left: 3.5%;
+    margin-left: 0;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    margin: 0;
+    padding-left: 3.5%;
+    color: #FF8800;
+  }
+  .navBoutonBuy:hover {
+    font-weight: 700;
+    font-size: 22px;
+  }
+}
+
+.container {
+  margin: 10% auto 10% auto;
+}
+
+h1 {
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  margin-top: 5%;
+  text-shadow: 2px 2px black;
+}
+
+.see-text {
+  font-weight: 700;
+  text-shadow: 2px 2px black;
+}
+
+.list-group {
+  margin-top: 2%;
+}
+
+.align {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.badge-primary {
+  margin-right: 5px;
+  background-color: black;
+}
+
+.badge-secondary {
+  margin-left: 5px;
+  background-color: #FF4646;
+}
+/*# sourceMappingURL=menu.css.map */

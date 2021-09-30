@@ -1,0 +1,279 @@
+body {
+  background-color: #303030;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.logo {
+  width: 80px;
+}
+
+.navigation {
+  font-size: 19px;
+  text-align: center;
+  font-weight: 400;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: #303030;
+  top: 0;
+  padding: 1.5%;
+}
+
+.navBouton {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  color: white;
+  margin-left: 2%;
+}
+
+.navBouton:hover {
+  color: #FF8800;
+  border-bottom: 1.5px solid #FF8800;
+  text-decoration: none;
+}
+
+.navTitle {
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+  font-size: 25px;
+  margin-right: 25%;
+  font-weight: 700;
+  color: white;
+  margin-left: 2%;
+}
+
+.navTitle:hover {
+  color: #FF8800;
+  text-decoration: none;
+}
+
+.navBoutonBuy {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  background-color: white;
+  color: black;
+  padding: 15px 50px 15px 50px;
+  margin-left: 3%;
+}
+
+.navBoutonBuy:hover {
+  color: #FF8800;
+  padding: 15px 65px 15px 65px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.imgLogo {
+  width: auto;
+  margin-top: 10%;
+  margin-left: 9.7%;
+}
+
+.jumbotron {
+  margin: 0.8% auto 5% auto;
+  max-width: 80%;
+  background-image: url(https://github.com/Giuseppemoi/restaurant-css-framework/blob/master/assets/images/imgjumbo.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-weight: 700;
+}
+
+.seeTextJumbo {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.btn {
+  background-color: #FF8B00;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #303030;
+}
+
+.cardFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 8%;
+}
+
+.card {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.mb-0 {
+  padding-top: 6%;
+  font-size: 18px;
+}
+
+.mb-3 {
+  color: #FF8800;
+}
+
+.card-link {
+  color: black;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.card-link:hover {
+  color: #FF8800;
+  border-bottom: 1.5px solid #FF8800;
+}
+
+footer ul a {
+  font-size: 17px;
+  color: white;
+  line-height: 25px;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  width: 150px;
+}
+
+.flexFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  margin-top: 2%;
+}
+
+ul a:hover {
+  color: #FF8800;
+  text-decoration: none;
+}
+
+.footerTitle {
+  color: #868686;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1100px) {
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+    position: unset;
+    padding: 0;
+  }
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+  }
+  .navBouton {
+    margin-bottom: 0.8%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 1.5%;
+    margin-left: 0;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    margin: 0;
+    color: #FF8800;
+  }
+  .navBoutonBuy:hover {
+    font-weight: 900;
+    font-size: 25px;
+  }
+  a {
+    margin: 0;
+  }
+  .cardFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 30%;
+  }
+  .card {
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: start;
+    font-weight: 400;
+    -webkit-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+    position: unset;
+    padding: 0;
+  }
+  .navTitle {
+    margin: 0px 0px 18px 15px;
+    font-size: 30px;
+  }
+  .navBouton {
+    margin-bottom: 0.8%;
+    background-color: white;
+    color: black;
+    padding: 1.5%;
+    padding-left: 3.5%;
+    margin-left: 0;
+    font-size: 17px;
+  }
+  .navBouton:hover {
+    color: #FF8800;
+    font-size: 19px;
+  }
+  .navBoutonBuy {
+    margin: 0;
+    padding-left: 3.5%;
+    color: #FF8800;
+  }
+  .navBoutonBuy:hover {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .cardFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 15%;
+  }
+  .card {
+    margin-top: 3%;
+  }
+}
+/*# sourceMappingURL=index.css.map */

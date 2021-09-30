@@ -1,0 +1,119 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.titleFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8%;
+}
+
+.titleFlex .plus {
+  margin-left: 40%;
+  margin-top: 1.5%;
+  text-decoration: none;
+  color: gray;
+}
+
+.line {
+  width: 1100px;
+  color: gray;
+}
+
+.linksFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1%;
+}
+
+.linksFlex .link1 {
+  margin-right: 10%;
+}
+
+.hoverBuble {
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  padding: 0.5% 3% 3% 3%;
+  width: 100%;
+}
+
+.hoverBuble .buble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hoverBuble .title {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.hoverBuble .profilP {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 3%;
+  opacity: 90%;
+}
+
+.hoverBuble .in {
+  color: gray;
+}
+
+.hoverBuble .date {
+  color: gray;
+}
+
+.hoverBuble .name {
+  text-decoration: none;
+  color: black;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+.hoverBuble:hover {
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateX(-15px);
+          transform: translateX(-15px);
+}
+
+@media only screen and (max-width: 1100px) {
+  .linksFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 2%;
+  }
+  .hoverBuble {
+    width: auto;
+  }
+  .line {
+    width: auto;
+  }
+  .titleFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 1%;
+  }
+  .titleFlex h2 {
+    margin-left: 2%;
+  }
+  .titleFlex .plus {
+    margin-left: 2%;
+  }
+}
+/*# sourceMappingURL=related-links.css.map */

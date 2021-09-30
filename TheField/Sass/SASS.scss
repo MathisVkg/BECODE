@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(85, 85, 85);
+}
+
+
+.show {
+margin: 2%;
+height: 600px;
+width: 460px;
+    &:hover {
+        img {
+            filter: blur(2px);
+            transform: scale(1.5);
+        }
+        .hidetext{
+            height: 100px;
+        }
+        .img-hover-zoom {
+            height: 160px;
+        }
+        .photo {
+            top : 16.1%;
+        }
+    }
+}
+.img-hover-zoom {
+    height: 260px;
+    width: 451px;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+img {
+    max-width: 100%;
+    transition: all .5s ease-in-out;
+}
+.month {
+    background-color: rgb(227, 78, 58);
+    color: white;
+    border-radius: 100%;
+    padding: 0.3%;
+    text-align: center;
+    position: absolute;
+    left: 23%;
+}
+.photo {
+    background-color: rgb(227, 78, 58);
+    color: white;
+    padding: 0.3%;
+    position: absolute;
+    left: 2.2%;
+    top: 26.2%;
+    transition: all .5s ease-in-out;
+}
+
+
+
+.container {
+    margin: -1% 2% 2% 0%;
+    background-color: white;
+    padding: 2% 2% 2% 4%;
+}
+.titlered {
+    color: rgb(229, 79, 55);
+    font-size: 145%;
+    margin-top: -4%;
+}
+.hidetext {
+    font-size: 120%;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s ease-in-out;
+}
+.reseau {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 50px;
+    font-size: 100%;
+    color: gray;
+}
+.espacement {
+    margin-right: 8%;
+}

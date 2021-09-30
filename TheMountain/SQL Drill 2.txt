@@ -1,0 +1,9 @@
+1. SELECT * FROM octocats
+2. SELECT firstname FROM octocats;
+3. SELECT firstname, lastname, age FROM octocats;
+4. SELECT firstname FROM octocats
+WHERE firstname LIKE "N%";
+5. SELECT * FROM octocats
+WHERE promo LIKE "promo1-central";
+6. SELECT firstname,lastname, birthdate FROM octocats
+WHERE promo LIKE "promo1-anderlecht";

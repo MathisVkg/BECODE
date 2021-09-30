@@ -1,0 +1,59 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: #e5e5e5;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20%;
+}
+
+.pagination .page {
+  text-decoration: none;
+  background-color: #e5e5e5;
+  border: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.pagination .boutonPag {
+  text-decoration: none;
+  background-color: #3b444f;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 25px 12px 25px;
+  color: white;
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.pagination .boutonTiret {
+  text-decoration: none;
+  margin-top: 6px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.pagination .boutonArrow {
+  text-decoration: none;
+  background-color: #3b444f;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 25px 12px 25px;
+  color: white;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 630px) {
+  .boutonTiret {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=pagination.css.map */
